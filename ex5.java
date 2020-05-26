@@ -17,7 +17,7 @@ public class ex5 {
 		salariof = 0;
 		x = 0;
 		
-		while (x<3) 
+		while (x<20) 
 		{
 		x += 1;
 
@@ -25,7 +25,7 @@ public class ex5 {
 		altura = leitor.nextDouble();
 		System.out.println ("Escreva o sexo do(a) funcionario(a) com F ou M");
 		sexo = leitor.next();
-		System.out.println ("Escreva o sal·rio do(a) funcionario(a)");
+		System.out.println ("Escreva o sal√°rio do(a) funcionario(a)");
 		salario = leitor.nextDouble();
 		
 		if(altura > alturamai)
@@ -46,10 +46,10 @@ public class ex5 {
 		soma += salario;
 }
 		media = soma/20;
-		System.out.println ("A mÈdia do salario dos funcionarios È R$" +(media));
-		System.out.println ("A menor altura È " +(alturamen));
-		System.out.println ("A maior altura È " +(alturamai));
-		System.out.println ("A quantidade de mulheres com sal·rio de atÈ 1000 reais È " +(salariof));
+		System.out.println ("A m√©dia do salario dos funcionarios √© R$" +(media));
+		System.out.println ("A menor altura √© " +(alturamen));
+		System.out.println ("A maior altura √© " +(alturamai));
+		System.out.println ("A quantidade de mulheres com sal√°rio de at√© 1000 reais √© " +(salariof));
 		
 		
 	}
